@@ -46,6 +46,10 @@ long data(){
 
 * Copy and paste this code in arduino IDE. Check the connections before Uploading the code into arduino board.
 
+
+![Alt Text](https://images-na.ssl-images-amazon.com/images/I/71M45gF1qKL._SL1500_.jpg)
+
+
 ```C++
 
 
