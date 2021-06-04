@@ -2,10 +2,20 @@
 
 ### Ultrasonic Sensor Testing :
 
-
 * Test the ultrasonic sensor using this below code. If it showing distance values in Serial monitor then go to Obstacle Avoiding code.
 
+#  `Connections`
+
+Ultrasonic Sensor | Arduino
+------------ | -------------
+Trigg | A5
+Echo | A4
+VCC | 5V
+GND | GND
+
+
 ![Ultrasonic sensor](https://microcontrollerslab.com/wp-content/uploads/2014/12/HC-SR04-Ultrasonic-Sensor-Pinout-diagram.jpg)
+
 
 ```C++
 
@@ -55,8 +65,8 @@ long data(){
 
 #include "AFMotor.h"
 
-#define echopin A3 // echo pin  --- Change these two numbers to respective numbers those are connected in Arduino.
-#define trigpin A4 // Trigger pin
+#define echopin A4 // echo pin  --- Change these two numbers to respective numbers those are connected in Arduino.
+#define trigpin A5 // Trigger pin
 
  
 
