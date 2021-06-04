@@ -1,4 +1,4 @@
-#define echopin A4 // echo pin
+#define echopin A4 // echo pin  --- Change these two numbers to respective numbers those are connected in Arduino.
 #define trigpin A5 // Trigger pin
 
 int distance;
