@@ -1,5 +1,43 @@
 # Obstacle-Avoiding-Arduino-Car
 
+#### `Testing of Arduino`
+
+* Test the Arduino Board by using blinking an In-Built LED (Below code) 
+
+```C++
+/*
+  This Code is written by Rahul Sharma for Yolabs. 
+This is the  simplest code possible to blink in build LED  
+Turns inbuild LED on and off at diff frequency to chk your arduino IDE, Arduino and cable is working
+Note: please check the port in case you have error while uploadig 
+ www.yolabs.in - 2020
+  
+*/
+
+// the setup function runs once when you press reset or power the board
+
+void setup()
+{
+  pinMode(13,OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+    digitalWrite(13, HIGH);
+    
+    Serial.println("I am High");
+    delay(3000); // Wait for 1000 millisecond(s)
+    digitalWrite(13, LOW);
+    Serial.println("I am Low");
+    delay(3000);
+ 
+}
+
+
+```
+
+
 ### Ultrasonic Sensor Testing :
 
 * Test the ultrasonic sensor using this below code. If it showing distance values in Serial monitor then go to Obstacle Avoiding code.
@@ -57,7 +95,7 @@ long data(){
 * Copy and paste this code in arduino IDE. Check the connections before Uploading the code into arduino board.
 
 
-![Alt Text](https://images-na.ssl-images-amazon.com/images/I/71M45gF1qKL._SL1500_.jpg)
+![Alt Text](https://www.the-diy-life.com/wp-content/uploads/2020/07/Obstacle-Avoiding-Robot-Car-Using-An-Arduino-Uno.jpg)
 
 
 ```C++
